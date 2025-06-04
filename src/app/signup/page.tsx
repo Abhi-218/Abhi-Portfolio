@@ -209,7 +209,7 @@ export default function SignUp() {
 
       // Redirect to dashboard after successful verification
       setTimeout(() => {
-        router.push("/me1");
+        router.push("/me");
       }, 3000);
     } catch (error: unknown) {
       if(error instanceof Error){
