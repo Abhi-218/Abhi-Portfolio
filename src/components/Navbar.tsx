@@ -23,7 +23,7 @@ export default function Navbar() {
         <ul className="flex space-x-2">
           {links.map((link) => (
             <li key={link.path}>
-              <Link href={link.path}>
+              <Link href={link.path} title={link.name}>
                 <motion.div
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}

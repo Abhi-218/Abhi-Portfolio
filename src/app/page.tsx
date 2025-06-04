@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import { FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi'
 import useSoundPlayer from '@/hooks/useSoundPlayer'
+import { title } from 'process'
 
 
 const TYPING_TEXTS = [
@@ -78,10 +79,10 @@ export default function Home() {
           className="flex justify-center space-x-6 mt-12"
         >
           {[
-            { icon: <FiGithub size={24} />, url: 'https://github.com' },
-            { icon: <FiLinkedin size={24} />, url: 'https://linkedin.com' },
+            { icon: <FiGithub size={24} />, url: 'https://github.com/Abhi-218'  },
+            { icon: <FiLinkedin size={24} />, url: 'https://www.linkedin.com/in/abhishek-vekariya-7913132ba/' },
             { icon: <FiTwitter size={24} />, url: 'https://twitter.com' },
-            { icon: <FiMail size={24} />, url: 'abhishekportfolio@gmail.com' }
+            { icon: <FiMail size={24} />, url: 'mailto:abhishekportfolio@gmail.com' }
           ].map((item, i) => (
             <motion.a
               key={i}
