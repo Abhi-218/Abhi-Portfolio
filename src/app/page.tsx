@@ -78,7 +78,7 @@ export default function Home() {
           className="flex justify-center space-x-6 mt-12"
         >
           {[
-            { icon: <FiGithub size={24} />, url: 'https://github.com' },
+            { icon: <FiGithub size={24} />, url: 'https://github.com/Abhi-218/' },
             { icon: <FiLinkedin size={24} />, url: 'https://linkedin.com' },
             { icon: <FiTwitter size={24} />, url: 'https://twitter.com' },
             { icon: <FiMail size={24} />, url: 'abhishekportfolio@gmail.com' }
