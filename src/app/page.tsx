@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import { FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi'
+import { SiFreelancer } from "react-icons/si";
 import useSoundPlayer from '@/hooks/useSoundPlayer'
 
 
@@ -80,7 +81,7 @@ export default function Home() {
           {[
             { icon: <FiGithub size={24} />, url: 'https://github.com/Abhi-218'  },
             { icon: <FiLinkedin size={24} />, url: 'https://www.linkedin.com/in/abhishek-vekariya-7913132ba/' },
-            { icon: <FiTwitter size={24} />, url: 'https://twitter.com' },
+            { icon: <SiFreelancer size={24} />, url: 'https://www.freelancer.in/u/abhivekariya218' },
             { icon: <FiMail size={24} />, url: 'mailto:abhishekportfolio@gmail.com' }
           ].map((item, i) => (
             <motion.a
@@ -89,7 +90,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ y: -5 }}
-              className="p-4 bg-white dark:bg-gray-700 rounded-full shadow-lg hover:shadow-xl transition-shadow"
+              className="p-4 bg-white dark:bg-gray-700 rounded-full shadow-lg hover:shadow-xl transition-shadow hover:text-blue-500"
             >
               {item.icon}
             </motion.a>

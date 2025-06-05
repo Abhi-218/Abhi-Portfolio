@@ -163,6 +163,7 @@ export default function ProjectsPage() {
                       <Image
                         src={project.image} 
                         alt={project.title}
+                        fill
                         className="w-full h-full object-cover"
                       />
                     ) : (
