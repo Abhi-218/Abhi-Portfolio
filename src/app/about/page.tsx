@@ -56,14 +56,14 @@ const devOpsLearning = async () => {
     },
   ];
 
-  const devOpsSkills = [
-    { name: "Docker", level: 40 },
-    { name: "Kubernetes", level: 35 },
-    { name: "CI/CD", level: 40 },
-    { name: "AWS", level: 30 },
-    { name: "Terraform", level: 0 },
-    { name: "Jenkins", level: 0 },
-  ];
+  // const devOpsSkills = [
+  //   { name: "Docker", level: 40 },
+  //   { name: "Kubernetes", level: 35 },
+  //   { name: "CI/CD", level: 40 },
+  //   { name: "AWS", level: 30 },
+  //   { name: "Terraform", level: 0 },
+  //   { name: "Jenkins", level: 0 },
+  // ];
 
   const softwareDevSkills = [
     { name: "JavaScript", level: 95 },

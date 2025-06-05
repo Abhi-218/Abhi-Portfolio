@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
-import { FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi'
+import { FiGithub, FiLinkedin,FiMail } from 'react-icons/fi'
 import { SiFreelancer } from "react-icons/si";
 import useSoundPlayer from '@/hooks/useSoundPlayer'
 
