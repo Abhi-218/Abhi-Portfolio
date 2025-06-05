@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import { FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi'
 import useSoundPlayer from '@/hooks/useSoundPlayer'
-import { title } from 'process'
 
 
 const TYPING_TEXTS = [
