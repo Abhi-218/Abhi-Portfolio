@@ -52,11 +52,11 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col justify-center px-4 relative overflow-hidden">
       {/* Floating emojis */}
-      <div className="absolute top-20 left-10 text-4xl animate-float">🚀</div>
-      <div className="absolute bottom-1/4 right-20 text-3xl animate-float-delay">🎨</div>
-      <div className="absolute top-1/7 right-1/4 text-5xl animate-float-delay-2">💻</div>
-      <div className="absolute top-5/7 left-20 text-5xl animate-float-delay-2">🤖</div>
-      <div className="absolute top-1/5 right-2/4 text-5xl animate-float-delay">🛡️</div>
+      <div className="absolute md:hidden top-20 left-10 text-4xl animate-float">🚀</div>
+      <div className="absolute md:hidden bottom-1/4 right-20 text-3xl animate-float-delay">🎨</div>
+      <div className="absolute md:hidden top-1/7 right-1/4 text-5xl animate-float-delay-2">💻</div>
+      <div className="absolute md:hidden top-5/7 left-20 text-5xl animate-float-delay-2">🤖</div>
+      <div className="absolute md:hidden top-1/5 right-2/4 text-5xl animate-float-delay">🛡️</div>
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
