@@ -52,7 +52,7 @@ const devOpsLearning = async () => {
       institution: "Bhagwan Mahavir University",
       period: "2023 - Running",
       description:
-        "Graduated with honors. Focus on software development and web design.",
+        "Focus on software development and web design.",
     },
   ];
 
@@ -122,12 +122,11 @@ const devOpsLearning = async () => {
             <div className="flex-1">
               <h2 className="text-2xl font-bold mb-4">Abhishek Vekariya</h2>
               <h3 className="text-xl text-primary mb-4">
-                DevOps Engineer & Software Developer
+                Software Developer & DevOps Engineer
               </h3>
 
               <p className="mb-4 text-slate-700 dark:text-slate-300">
-                I&apos;m a passionate full-stack developer with 8+ years of
-                experience creating beautiful, functional, and user-centered
+                I&apos;m a passionate full-stack developer with creating beautiful, functional, and user-centered
                 digital experiences. I specialize in building modern web
                 applications using Next.js, React, and Tailwind CSS, while also
                 implementing robust DevOps practices.
@@ -147,7 +146,7 @@ const devOpsLearning = async () => {
                     Location
                   </h4>
                   <p className="text-slate-600 dark:text-slate-400">
-                    Punagam, Surat, India
+                    Varachha, Surat, India
                   </p>
                 </div>
                 <div>

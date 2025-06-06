@@ -21,38 +21,30 @@ const PROJECTS: Project[] = [
     id: 1,
     title: 'Portfolio Website',
     description: 'The very site you\'re viewing now! Built with Next.js, Framer Motion, and Tailwind CSS.',
-    tags: ['Next.js', 'TypeScript', 'Tailwind', 'Framer Motion'],
-    github: 'https://github.com/yourusername/portfolio',
-    live: '#',
-    image: '/project-images/portfolio.jpg'
+    tags: ['Next.js', 'TypeScript', 'Tailwind', 'Framer Motion','Express.js'],
+    github: 'https://github.com/Abhi-218/Abhi-Portfolio',
+    live: 'https://abhiportfolio-ebon.vercel.app/',
+    image: 'https://res.cloudinary.com/dlktmd2qd/image/upload/v1749177088/Screenshot_2025-06-06_075654_wffkpo.png'
   },
   {
     id: 2,
-    title: 'E-Commerce App',
-    description: 'Full-featured online store with cart functionality and payment processing.',
-    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    github: 'https://github.com/yourusername/ecommerce',
-    live: 'https://ecommerce-demo.com',
-    image: '/project-images/ecommerce.jpg'
+    title: 'AuthFlow - Secure Authentication for Modern Web Apps',
+    description: 'Frontend and only Auth functionality work.',
+    tags: ['Next.js', 'Node.js','TypeScript', 'MongoDB','Google Seo','Express.js'],
+    github: 'https://github.com/Abhi-218/AuthFlowByAbhishek',
+    live: 'https://authflow-by-abhishek-vekariya.vercel.app/',
+   image: 'https://res.cloudinary.com/dlktmd2qd/image/upload/v1749177088/Screenshot_2025-06-06_075511_ml3we7.png'
+    
   },
   {
     id: 3,
-    title: 'Task Manager',
-    description: 'Productivity app with drag-and-drop task organization and real-time sync.',
-    tags: ['React', 'Firebase', 'DnD Kit'],
-    github: 'https://github.com/yourusername/task-manager',
-    live: 'https://tasks-demo.com',
-    image: '/project-images/taskmanager.jpg'
+    title: 'MultiTool',
+    description: 'TODO , CURRENCY CONVERTER , BG-CHANGER , PASSWORD GENARATOR , COUNTER',
+    tags: ['React', 'Vite','API'],
+    github: 'https://github.com/Abhi-218/MultiTool',
+    live: 'https://multi-tool-three.vercel.app/',
+    image: 'https://res.cloudinary.com/dlktmd2qd/image/upload/v1749177087/Screenshot_2025-06-06_075806_zgrwcj.png'
   },
-  {
-    id: 4,
-    title: 'Weather Dashboard',
-    description: 'Real-time weather forecasts with animated weather representations.',
-    tags: ['JavaScript', 'API', 'CSS'],
-    github: 'https://github.com/yourusername/weather-app',
-    live: 'https://weather-demo.com',
-    image: '/project-images/weather.jpg'
-  }
 ]
 
 const TAG_COLORS: Record<string, string> = {
@@ -66,9 +58,9 @@ const TAG_COLORS: Record<string, string> = {
   'API': 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200',
   'CSS': 'bg-pink-100 text-pink-800 dark:bg-pink-900 dark:text-pink-200',
   'MongoDB': 'bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200',
-  'Stripe': 'bg-violet-100 text-violet-800 dark:bg-violet-900 dark:text-violet-200',
+  'Express.js': 'bg-violet-100 text-violet-800 dark:bg-violet-900 dark:text-violet-200',
   'Framer Motion': 'bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-900 dark:text-fuchsia-200',
-  'DnD Kit': 'bg-rose-100 text-rose-800 dark:bg-rose-900 dark:text-rose-200'
+  'Vite': 'bg-rose-100 text-rose-800 dark:bg-rose-900 dark:text-rose-200'
 }
 
 export default function ProjectsPage() {

@@ -16,7 +16,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [showGame, setShowGame] = useState(true);
+  const [showGame, setShowGame] = useState(false);
   const { playClick,playShowGame} = useSoundPlayer()
   const handleShowGame = () => {
     playClick();
