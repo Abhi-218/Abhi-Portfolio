@@ -176,7 +176,7 @@ const devOpsLearning = async () => {
               </div>
 
               <Link
-                href="/next.svg"
+                href="/Abhishek_Resume.pdf"
                 download={true}
                 onClick={() => playClick()}
                 className="inline-flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-medium transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1"
