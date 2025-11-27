@@ -1,51 +1,37 @@
-"use client";
-
-import { MotionConfig } from "framer-motion";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import ThemeToggle from "@/components/ThemeToggle";
-import FloatingEmoji from "@/components/ok";
-import { useState } from "react";
-import useSoundPlayer from "@/hooks/useSoundPlayer";
+import { Metadata } from "next";
+import GameToggleButton from "@/components/GameToggleButton";
+import MotionProvider from "@/components/MotionProvider";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "Abhishek Portfolio",
+  icons: "/Icon.png",
+  description:
+    "Designed and developed a modern, responsive portfolio showcasing projects and skills. Implemented smooth animations and interactive UI elements for enhanced user experience",
+};
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const [showGame, setShowGame] = useState(false);
-  const { playClick,playShowGame} = useSoundPlayer()
-  const handleShowGame = () => {
-    playClick();
-    playShowGame();
-    setShowGame(!showGame);
-
-  };
   return (
     <html lang="en" className="scroll-smooth">
-      <MotionConfig reducedMotion="user">
-        <body
-          className={`${inter.className} bg-gradient-to-br from-indigo-50 to-blue-100 dark:from-gray-900 dark:to-gray-800`}
-        >
+      <body
+        className={`${inter.className} bg-gradient-to-br from-indigo-50 to-blue-100 dark:from-gray-900 dark:to-gray-800`}
+      >
+        <MotionProvider>
           {children}
-          {showGame ? <FloatingEmoji /> : ""}
           <Navbar />
           <ThemeToggle />
-          <button
-            onClick={handleShowGame}
-            className="fixed top-6 right-6 p-3 bg-white dark:bg-gray-700 rounded-full shadow-lg z-50"
-          >
-            {showGame ? (
-              <span className="text-xl">😎</span>
-            ) : (
-              <span className="text-xl">😒</span>
-            )}
-          </button>
-        </body>
-      </MotionConfig>
+          <GameToggleButton />
+        </MotionProvider>
+      </body>
     </html>
   );
 }

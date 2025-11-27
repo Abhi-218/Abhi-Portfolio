@@ -110,7 +110,7 @@ const devOpsLearning = async () => {
             <div className="w-64 h-64 relative group">
               <div className="absolute inset-0 rounded-xl overflow-hidden rotate-3 transition-transform group-hover:rotate-0 duration-300">
                 <Image
-                  src="https://res.cloudinary.com/dlktmd2qd/image/upload/v1746715618/abhishekportfolio/bq5yfiwrbhvimi7isr4s.png"
+                  src="/ProfilPhoto.jpg"
                   alt="Developer portrait"
                   fill
                   className="object-cover"
