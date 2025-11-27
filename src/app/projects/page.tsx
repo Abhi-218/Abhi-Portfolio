@@ -77,7 +77,7 @@ const PROJECTS: Project[] = [
   },
 ];
 
-export const TAG_COLORS: Record<string, string> = {
+const TAG_COLORS: Record<string, string> = {
   "Next.js": "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200",
   "TypeScript": "bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200",
   "React": "bg-cyan-100 text-cyan-800 dark:bg-cyan-900 dark:text-cyan-200",
