@@ -4,7 +4,7 @@ import { generateToken} from '@/lib/auth';
 import User from '@/Models/User';
 import { dbConnect } from '@/lib/dbconnect';
 import { uploadImage } from '@/lib/cloudinary';
-import emailsender from '@/lib/email';
+import emailsender from '@/lib/resend';
 
 export async function POST(req: NextRequest) {
   try {
