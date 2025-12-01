@@ -66,12 +66,13 @@ const devOpsLearning = async () => {
   // ];
 
   const softwareDevSkills = [
+    { name: "Tailwind CSS", level: 93 },
     { name: "JavaScript", level: 95 },
+    { name: "TypeScript", level: 88 },
+    { name: "Node.js", level: 85 },
     { name: "React", level: 92 },
     { name: "Next.js", level: 90 },
-    { name: "Node.js", level: 85 },
-    { name: "TypeScript", level: 88 },
-    { name: "Tailwind CSS", level: 93 },
+    { name: "NestJS", level: 80 },
   ];
 
   const itemVariants = {
