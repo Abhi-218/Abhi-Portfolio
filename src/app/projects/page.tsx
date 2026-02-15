@@ -69,11 +69,29 @@ const PROJECTS: Project[] = [
       "Prisma ORM",
       "Neon PostgreSQL",
       "Razorpay",
+      "Admin Panel",
+      "QR Technology"
     ],
     github: "Private",
     live: "https://veilforce.vercel.app",
     image:
       "https://res.cloudinary.com/dlktmd2qd/image/upload/v1764265070/Screenshot_2025-11-27_230708_c77rx6.png",
+  },
+  {
+    id: 5,
+    title: "RichMenClub",
+    description:
+      "A luxury Watch Store",
+    tags: [
+      "TypeScript",
+      "API",
+      "Next.js",
+      "Basic Admin Panel"
+    ],
+    github: "Private",
+    live: "https://richmenclub.vercel.app/",
+    image:
+      "https://res.cloudinary.com/dlktmd2qd/image/upload/v1771168451/Screenshot_2026-02-15_203020_zcyrvs.png",
   },
 ];
 
